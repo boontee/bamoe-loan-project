@@ -345,6 +345,7 @@
     </dmn:decisionTable>
   </dmn:decision>
   <dmn:decision id="_21C50763-E49F-4D83-A824-16DA6AA87C64" name="Loan Pre-Qualification">
+    <dmn:description>some commnets</dmn:description>
     <dmn:extensionElements />
     <dmn:variable id="_047A25F5-DEF2-44BD-95B7-FB49A433F878" name="Loan Pre-Qualification" typeRef="Loan_Qualification" />
     <dmn:informationRequirement id="_A3E95B32-2EFD-40AD-B5E4-0A73A1542011">
@@ -502,7 +503,7 @@
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
   <dmndi:DMNDI>
-    <dmndi:DMNDiagram id="_1608585F-01C8-4A66-B3E5-F4422D4DD2CA" name="DRG">
+    <dmndi:DMNDiagram id="_1608585F-01C8-4A66-B3E5-F4422D4DD2CA" name="DRG" useAlternativeInputDataShape="false">
       <di:extension>
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_21E8FA38-C947-4733-9E52-CF81A97ADF91">
@@ -665,7 +666,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0" />
           <dmndi:FontColor red="0" green="0" blue="0" />
         </dmndi:DMNStyle>
-        <dc:Bounds x="532" y="89" width="136" height="62" />
+        <dc:Bounds x="500" y="20" width="136" height="62" />
         <dmndi:DMNLabel id="_5E0B9E34-0984-4BB8-9365-133C4DFD4949" />
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_6E3205AF-7E3D-4ABE-A367-96F3F6E8210E" dmnElementRef="_6E3205AF-7E3D-4ABE-A367-96F3F6E8210E" isCollapsed="false">
@@ -729,15 +730,15 @@
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_A3E95B32-2EFD-40AD-B5E4-0A73A1542011" dmnElementRef="_A3E95B32-2EFD-40AD-B5E4-0A73A1542011">
         <di:waypoint x="385" y="255" />
-        <di:waypoint x="600" y="151" />
+        <di:waypoint x="568" y="82" />
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_0B992F01-BA77-4F06-A830-D8948B467272" dmnElementRef="_0B992F01-BA77-4F06-A830-D8948B467272">
         <di:waypoint x="599" y="256" />
-        <di:waypoint x="600" y="151" />
+        <di:waypoint x="568" y="82" />
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_B6002F33-4888-48C5-B265-636030F8C2DC" dmnElementRef="_B6002F33-4888-48C5-B265-636030F8C2DC">
         <di:waypoint x="1031" y="256" />
-        <di:waypoint x="600" y="151" />
+        <di:waypoint x="568" y="82" />
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
